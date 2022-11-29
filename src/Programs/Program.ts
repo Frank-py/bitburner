@@ -8,7 +8,7 @@ export interface IProgramCreate {
 }
 
 export class Program {
-  name = "";
+  name = '';
   create: IProgramCreate | null;
   run: (args: string[], server: BaseServer) => void;
 
